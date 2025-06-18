@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -8,86 +9,107 @@
 	<link rel="stylesheet" href="stylesheets/styles.css">
 	<link rel="stylesheet" href="stylesheets/pygment_trac.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
+	<!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <base target="_blank">
+	<base target="_blank">
 </head>
+
 <body>
 	<div class="wrapper">
 		<header>
 			<h1>dmitriy bolotov</h1>
-			<p></p>
+			<img src="images/profile.jpg" alt="dmitriy bolotov"
+				style="width:200px; border-radius: 50%; margin-top: 10px; margin-bottom: 20px;">
 
 
-			<p class="view">
-			
-			<a href="http://linkedin.com/in/dbolotov">linkedin</a><br>
-			<a href="https://github.com/dbolotov">github</a></p>
-
+			<h3 style="margin-bottom: 5px;">Get in Touch</h3>
 			<p>
-			<a href="#rpackages" target="_self">R packages</a><br>
-			<a href="#analyses" target="_self">data analysis</a><br>
-			<a href="#deeplearning" target="_self">deep learning</a><br>
-			<a href="#other" target="_self">other</a><br>
+				<a href="http://linkedin.com/in/dbolotov">linkedin</a><br>
+				<a href="https://github.com/dbolotov">github</a>
+			</p>
 
+			<h3 style="margin-bottom: 5px;">Navigation</h3>
+			<p>
+				<a href="#rpackages" target="_self">R packages</a><br>
+				<a href="#analyses" target="_self">data analysis</a><br>
+			</p>
 
 		</header>
-			<section>
-				<h3><a name="welcome" class="anchor" href="#welcome"><span class="octicon octicon-link"></span></a>Hi!</h3>
+		<section>
+			<h3><a name="welcome" class="anchor" href="#welcome"><span class="octicon octicon-link"></span></a>Hi!</h3>
 
-				<p>I am a data scientist interested in machine learning and deep learning.</p>
+			<p>I am a senior data science practitioner with 12+ years of experience across business intelligence, machine
+				learning, and applied AI.</p>
+			<p>I've worked on projects in adtech, manufacturing, IoT, and industrial analytics—hands-on with anomaly
+				detection, time-series modeling, deep learning, and LLM integrations. I help teams scope practical AI
+				solutions, connect technical work to product goals, and bring clarity to complex ML problems.</p>
+			<p>This site shares selected projects and tools I've developed or maintained.</p>
 
-				<p>This page is a portfolio of code, data analysis, and other output.</p>
+		</section>
 
-			</section>
 
-			<section>
-				<h3><a name="rpackages" class="anchor" href="#rpackage"><span class="octicon octicon-link"></span></a>R Packages</h3>
 
-				<p><a href="https://cran.r-project.org/web/packages/neighbr/index.html"><b>neighbr</b></a> - Classification, regression, and clustering with k nearest neighbors algorithm. Implements several distance and similarity measures, covering continuous and logical features. An introduction can be found <a href="https://cran.r-project.org/web/packages/neighbr/vignettes/neighbr-help.html">here</a>.
 
-				<p><a href="https://dbolotov.github.io/amelie/"><b>amelie</b></a> - Anomaly detection as binary classification for cross-sectional data. Uses maximum likelihood estimates and normal probability density functions to classify observations. An introduction can be found <a href="https://dbolotov.github.io/amelie/articles/amelie-introduction.html">here</a>.
+		<section>
+			<h3><a name="rpackages" class="anchor" href="#rpackages"><span class="octicon octicon-link"></span></a>R
+				Packages</h3>
 
-				<p>I also maintain <a href="https://cran.r-project.org/web/packages/pmml/index.html"><b>pmml</b></a> and <a href="https://cran.r-project.org/web/packages/pmmlTransformations/index.html"><b>pmmlTransformations</b></a>.
-			</section>
 
-			<section>
-				<h3><a name="analyses" class="anchor" href="#analyses"><span class="octicon octicon-link"></span></a>Data Analysis</h3>
 
-				<p><a href="http://rpubs.com/DBolotov/exerciseRecognition"><b>Motion Recognition</b></a> - Classifying human motion using accelerometer and gyroscope data using a random forest model in R.</p>
-
-				<p><a href="http://rpubs.com/DBolotov/severeWeather"><b>Severe Weather</b></a> - Finding the most influential weather events across the U.S. in terms of economic and health impact in R, using the NOAA database.</p>
-			</section>
 
 			<section>
-				<h3><a name="deeplearning" class="anchor" href="#deeplearning"><span class="octicon octicon-link"></span></a>Deep Learning</h3>
+				<p>While Python dominates data science workflows today, I really enjoyed using R for analysis and
+					modeling.
+					I developed and maintained R packages that supported model deployment in production settings.</p>
 
-				<p><a href="https://github.com/dbolotov/udacity-aind2/blob/master/dog-cnn-classifier/dog_app.ipynb"><b>Dog breed classifier</b></a> - Building convolutional neural network image classifiers in keras, including transfer learning. The final model is applied to pictures of dogs as well as humans. Project for Udacity AI Nanodegree.</p>
+				<p><a href="https://cran.r-project.org/web/packages/pmml/index.html"><b>pmml</b></a> and
+					<a
+						href="https://cran.r-project.org/web/packages/pmmlTransformations/index.html"><b>pmmlTransformations</b></a>
+					export a variety of statistical and ML models and preprocessing steps to PMML, an open XML-based
+					standard for model deployment.
+				</p>
 
-				<p><a href="https://github.com/dbolotov/udacity-aind2/blob/master/text-generation-rnn/RNN_project.ipynb"><b>Time series prediction and text generation with RNN</b></a> - Using RNNs to predict stock prices from a time series, and generate text one character at a time. Project for Udacity AI Nanodegree.</p>
+				<p>I also developed packages for specialized modeling and experimentation:</p>
 
-				<p><a href="http://nbviewer.ipython.org/github/dbolotov/learning_deep_learning/blob/master/sparseae_demo.ipynb"><b>Sparse autoencoder</b></a> - Extracting image features with a basic sparse autoencoder in python.</p>	
+				<p><a href="https://cran.r-project.org/web/packages/neighbr/index.html"><b>neighbr</b></a> – k-nearest
+					neighbors for classification, regression, and clustering. Supports various distance and similarity
+					measures for both continuous and logical features.
+					<a href="https://cran.r-project.org/web/packages/neighbr/vignettes/neighbr-help.html">Intro
+						here</a>.
+				</p>
+
+				<p><a href="https://dbolotov.github.io/amelie/"><b>amelie</b></a> – Anomaly detection based on binary
+					classification and maximum likelihood estimation.
+					<a href="https://dbolotov.github.io/amelie/articles/amelie-introduction.html">Intro here</a>.
+				</p>
 			</section>
+
+
 
 			<section>
-				<h3><a name="other" class="anchor" href="#other"><span class="octicon octicon-link"></span></a>Other</h3>
+				<h3><a name="analyses" class="anchor" href="#analyses"><span
+							class="octicon octicon-link"></span></a>Data Analysis</h3>
 
-				<p><a href="https://conference-party.appspot.com/"><b>Conference Party</b></a> - Application for organizing conferences. The backend was built as the course project for <a href="http://www.udacity.com/course/ud859">Developing Scalable Apps</a>. Java on Google App Engine. </p>
+				<p><a href="http://rpubs.com/DBolotov/exerciseRecognition"><b>Motion Recognition</b></a> - Classifying
+					human motion using accelerometer and gyroscope data using a random forest model in R.</p>
 
-				<p><a href="https://dontpanic.shinyapps.io/letterFreq/"><b>LetterFreq!</b></a> - Shiny app that counts and plots character frequencies of input text. More information is in this <a href="http://dbolotov.github.io/letterFreq_slide_deck/">short presentation</a>.</p>	
-
-				<p><a href="http://nbviewer.ipython.org/github/dbolotov/py_benchmarks/blob/master/benchmarking_sorting_algorithms.ipynb"><b>Sorting benchmarks</b></a> - Timing a few sorting algorithms in a jupyter notebook.</p>			
+				<p><a href="http://rpubs.com/DBolotov/severeWeather"><b>Severe Weather</b></a> - Assessing the most
+					economically and medically impactful weather events in the U.S. using NOAA data in R.</p>
 			</section>
+
+
+
 
 
 			<footer>
-      <!--
+				<!--
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
     -->
-</footer>
-</div>
-<script src="javascripts/scale.fix.js"></script>
+			</footer>
+	</div>
+	<script src="javascripts/scale.fix.js"></script>
 
 </body>
+
 </html>
