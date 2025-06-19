@@ -4,8 +4,10 @@ body {
   padding:50px;
   /* font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif; */
   font:16px/1.6 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
+  /* color:#777; */
+  color:	#444;
   font-weight:300;
+  background-color: #fdfaf6;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -96,11 +98,25 @@ img {
   max-width:100%;
 }
 
-header {
+/* header {
   width:270px;
   float:left;
   position:fixed;
+} */
+
+/*adding vertical bar on left*/
+header {
+  width:246px;
+  float:left;
+  position:fixed;
+  /* background-color: #fdfaf6; */
+  /* background-color: #c7c8b3; */
+  height: 100vh; /* full height of the viewport */
+  padding: 0px 20px 20px 20px; /* top/right/bottom/left padding */
+  box-sizing: border-box;
 }
+
+
 
 header ul {
   list-style:none;
@@ -164,6 +180,7 @@ section {
   width:500px;
   float:right;
   padding-bottom:50px;
+  /* padding: 50px 0 50px 0; */
 }
 
 small {
