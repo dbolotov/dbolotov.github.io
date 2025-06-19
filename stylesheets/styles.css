@@ -2,7 +2,8 @@
 
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font:16px/1.6 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
 }
@@ -252,4 +253,9 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+a:hover .fab {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  transition: text-shadow 0.2s ease;
 }
