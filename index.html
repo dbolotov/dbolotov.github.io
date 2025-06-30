@@ -13,7 +13,8 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 	<base target="_blank">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 
 <body>
@@ -25,33 +26,32 @@
 
 			<h3 style="margin-bottom: 5px;">Let's Connect</h3>
 			<p>
-				<a href="https://linkedin.com/in/dbolotov"><i class="fab fa-linkedin"></i> LinkedIn</a><br>
-				<a href="https://github.com/dbolotov">
-					<i class="fab fa-github" style="color: black;"></i> GitHub
-				</a>
+				<a href="https://linkedin.com/in/dbolotov"><i class="fab fa-linkedin" style="color: black;"></i>
+					LinkedIn</a><br>
+				<a href="https://github.com/dbolotov"><i class="fab fa-github" style="color: black;"></i> GitHub</a><br>
+				<a href="https://medium.com/@dmitriy.bolotov"><i class="fab fa-medium" style="color: black;"></i>
+					Medium</a>
 			</p>
 
 			<h3 style="margin-bottom: 5px;">Navigation</h3>
 			<p>
 				<a href="#rpackages" target="_self">R Packages</a><br>
-				<a href="#analyses" target="_self">Data Analysis</a><br>
+				<a href="#dsprojects" target="_self">Data Science</a><br>
 			</p>
 
 		</header>
 		<section>
 			<h3><a name="welcome" class="anchor" href="#welcome"><span class="octicon octicon-link"></span></a>Hi!</h3>
 
-			<p>I am a senior data science practitioner with 12+ years of experience across business intelligence,
-				machine
-				learning, and applied AI.</p>
-			<p>I've worked on projects in adtech, manufacturing, IoT, and industrial analytics; hands-on with anomaly
-				detection, time-series modeling, deep learning, and LLM integrations. I help teams scope practical AI
-				solutions, connect technical work to product goals, and bring clarity to complex ML problems.</p>
-			<p>This site shares selected projects and tools I've developed or maintained.</p>
+			<p>I’m a senior data scientist focused on applied machine learning and practical AI.</p>
+
+			<p>Over the past decade, I’ve worked across adtech, manufacturing, and industrial analytics,
+				helping teams move from noisy data to working models.
+				My experience spans predictive modeling, anomaly detection, deep learning, and LLM-based tools.</p>
+			<p>This site shares selected projects and tools I've developed or maintained.
+			</p>
 
 		</section>
-
-
 
 
 		<section>
@@ -62,43 +62,54 @@
 
 
 			<section>
-				<p>In the past, I developed and maintained R packages that supported predictive model model deployment
-					in production settings.</p>
+				<p>I worked on several open-source R packages to support machine learning model deployment and
+					experimentation:</p>
 
-				<p><a href="https://cran.r-project.org/web/packages/pmml/index.html"><b>pmml</b></a> and
-					<a
-						href="https://cran.r-project.org/web/packages/pmmlTransformations/index.html"><b>pmmlTransformations</b></a>
-					export a variety of statistical and ML models and preprocessing steps to PMML, an open XML-based
-					standard.
-				</p>
+				<ul>
+					<li>
+						<a href="https://cran.r-project.org/web/packages/pmml/index.html"><b>pmml</b></a> and
+						<a
+							href="https://cran.r-project.org/web/packages/pmmlTransformations/index.html"><b>pmmlTransformations</b></a>
+						– Export trained predictive models and preprocessing steps to <b>PMML</b>, an open standard for
+						model deployment.
+					</li>
 
-				<p>I also developed packages for specialized modeling and experimentation:</p>
+					<li>
+						<a href="https://cran.r-project.org/web/packages/neighbr/index.html"><b>neighbr</b></a> –
+						K-nearest neighbors for classification, regression, and clustering.
+						<a
+							href="https://cran.r-project.org/web/packages/neighbr/vignettes/neighbr-help.html">[Intro]</a>
+					</li>
 
-				<p><a href="https://cran.r-project.org/web/packages/neighbr/index.html"><b>neighbr</b></a> – k-nearest
-					neighbors for classification, regression, and clustering. Supports various distance and similarity
-					measures for both continuous and logical features.
-					<a href="https://cran.r-project.org/web/packages/neighbr/vignettes/neighbr-help.html">Intro
-						here</a>.
-				</p>
-
-				<p><a href="https://dbolotov.github.io/amelie/"><b>amelie</b></a> – Anomaly detection based on binary
-					classification and maximum likelihood estimation.
-					<a href="https://dbolotov.github.io/amelie/articles/amelie-introduction.html">Intro here</a>.
-				</p>
+					<li>
+						<a href="https://dbolotov.github.io/amelie/"><b>amelie</b></a> – Anomaly detection using binary
+						classification and maximum likelihood estimation.
+						<a href="https://dbolotov.github.io/amelie/articles/amelie-introduction.html">[Intro]</a>
+					</li>
+				</ul>
 			</section>
-
 
 
 			<section>
-				<h3><a name="analyses" class="anchor" href="#analyses"><span
-							class="octicon octicon-link"></span></a>Data Analysis</h3>
+				<h3><a name="dsprojects" class="anchor" href="#dsprojects"><span
+							class="octicon octicon-link"></span></a>Data Science Projects</h3>
 
-				<p><a href="http://rpubs.com/DBolotov/exerciseRecognition"><b>Motion Recognition</b></a> - Classifying
-					human motion using accelerometer and gyroscope data using a random forest model in R.</p>
-
-				<p><a href="http://rpubs.com/DBolotov/severeWeather"><b>Severe Weather</b></a> - Assessing the most
-					economically and medically impactful weather events in the U.S. using NOAA data in R.</p>
+				<ul>
+					<li>
+						<a href="https://timeseriessmoothing.streamlit.app/"><b>Time Series Smoothing</b></a> –
+						Interactive comparison of six smoothing techniques for time series data, using Streamlit and Python.
+					</li>
+					<li>
+						<a href="http://rpubs.com/DBolotov/exerciseRecognition"><b>Motion Recognition</b></a> –
+						Classifying human motion from accelerometer and gyroscope data using random forest models.
+					</li>
+					<li>
+						<a href="http://rpubs.com/DBolotov/severeWeather"><b>Severe Weather</b></a> – Identifying the
+						most economically and medically impactful weather events in the U.S. using NOAA data in R.
+					</li>
+				</ul>
 			</section>
+
 
 
 
