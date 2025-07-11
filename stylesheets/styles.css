@@ -280,8 +280,8 @@ a:hover .fab {
 
 
 .project-thumb {
-	width: 160px;
-	height: 80px;
+	width: 150px;
+	height: 76px;
 	object-fit: cover;
 	object-position: top left;
 	border-radius: 6px;
@@ -303,6 +303,8 @@ a:hover .fab {
 .project-thumb-container {
 	overflow: hidden;
 	width: 220px;
-	height: 120px;
+	height: 10px;
 	border-radius: 6px;
 }
+
+
