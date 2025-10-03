@@ -280,8 +280,8 @@ a:hover .fab {
 
 
 .project-thumb {
-	width: 150px;
-	height: 76px;
+	width: 120px;
+	height: 64px;
 	object-fit: cover;
 	object-position: top left;
 	border-radius: 6px;
